@@ -1,6 +1,11 @@
 public class Rectangle {
-    public double length = 3.0;
-    public double width = 4.0;
+    private double length;
+    private double width;
+
+    public Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
 
     public double getPerimeter() {
         return 2*(length + width);

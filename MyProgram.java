@@ -5,5 +5,6 @@ public class MyProgram {
 
         Rectangle mySecondRectangle = new Rectangle(4,5);
         System.out.println("mySecondRectangle Perimeter = " + mySecondRectangle.getPerimeter());
+        System.out.println("mySecondRectangle Area = " + mySecondRectangle.getArea());
     }
 }

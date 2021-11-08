@@ -10,5 +10,9 @@ public class MyProgram {
         Circle myFirstCircle = new Circle(3);
         System.out.println("myFirstCircle Perimeter = " + myFirstCircle.getPerimeter() );
         System.out.println("myFirstCicle Area = " + myFirstCircle.getArea());
+
+        Square myFirstSquare = new Square(1);
+        System.out.println("myFirstSquare Perimeter = " + myFirstSquare.getPerimeter());
+        System.out.println("myFirstSquare Area = " + myFirstSquare.getArea());
     }
 }

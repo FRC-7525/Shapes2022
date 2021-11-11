@@ -1,16 +1,6 @@
-public class Square {
-    private double side;
+public class Square extends Rectangle {
 
     public Square(double side) {
-        this.side = side;
+        super( side, side);
     }
-
-    public double getPerimeter() {
-        return 4*side;
-    }
-
-    public double getArea() {
-     return side*side;    
-    }
-    
 }
